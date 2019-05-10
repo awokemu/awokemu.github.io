@@ -1,0 +1,99 @@
+#---------------------------
+# Material-T
+# Author: rook1e
+# Github: https://github.com/0x2e/Material-T
+#---------------------------
+
+#---------------------------
+# 全局
+# Site
+#---------------------------
+favicon: /favicon.png
+apple_touch_icon: /apple-touch-icon.png
+
+
+#---------------------------
+# 首页
+# Index Page
+#---------------------------
+index:
+  banner_img: /images/homepage4.jpg
+  banner_img_height: 120  # available: 0 - 100
+  subtitle:
+    enable: true
+  auto_excerpt:
+    enable: true
+    length: 300
+  post_url_target: _self  # available: _blank | _self
+  post_info:
+    enable: true
+
+
+#---------------------------
+# 导航栏
+# Head Navbar
+#---------------------------
+navbar:
+  menu:
+    Home: /
+    归档: /archives/
+    About: /about/
+
+
+#---------------------------
+# 文章页
+# Post Page
+#---------------------------
+post:
+  banner_img: /images/post.jpg
+  banner_img_height: 70  # available: 0 - 100
+  toc:
+    enable: true
+  highlight:
+    enable: true
+    theme: tomorrow-night-eighties # available: github | tomorrow | tomorrow-night | tomorrow-night-eighties
+  copyright:
+    enable: true
+    content:
+  comments:
+    enable: true
+    type: valine  # available: disqus | valine
+
+# Disqus
+disqus:
+  shortname: # your shortname
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+valine:
+  enable: true
+  appid: fRviEm3V5t70yJuO2anF9b3q-gzGzoHsz
+  appkey:  hWNhMYbcRQVolyrvqSI7fVgz
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 快来吐槽吧 # comment box placeholder
+  avatar: somebody # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+
+#---------------------------
+# 归档页
+# Archive Page
+#---------------------------
+archive:
+  banner_img: /images/archive.jpg
+  banner_img_height: 80  # available: 0 - 100
+
+#---------------------------
+# 关于页
+# About Page
+#---------------------------
+about:
+  banner_img: /images/about.png
+  banner_img_height: 80  # available: 0 - 100
+  avatar: /images/avatar.png
+  name:
+  introduce: 日常狗粮 / 撸猫 / 一些...
+  icons:
+    github: https://github.com/awokezhou
